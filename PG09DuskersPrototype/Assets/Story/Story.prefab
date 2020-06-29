@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9074237523010451857
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9074237523010451859}
+  - component: {fileID: 9074237523010451856}
+  - component: {fileID: 4599152637247223951}
+  m_Layer: 0
+  m_Name: Story
+  m_TagString: Story
+  m_Icon: {fileID: 2800000, guid: 578e7cfe46caa2f4f99f29f5376f7810, type: 3}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9074237523010451859
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9074237523010451857}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -20.01}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9074237523010451856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9074237523010451857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b30ffd9349f9c64ea5a0fae2f7e8440, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Active: 0
+  IsOneWay: 0
+  Trigered: 0
+  ProtoSkrypt_WriteCustomActionsHere_ExecOnActivate: 
+  SayOnActivate: 
+  PlayerOrEnemy: []
+  ToolOfPlayer: []
+  WaitFor: 0
+  triggeredFor: 0
+  ProtoSkrypt_WriteCustomActionsHere_ExecOnTrigger: 
+  UnityIsNotAllowingInterfacesGreat: {fileID: 0}
+  SayOnTriggered: 
+  StoryiesToActivate: []
+  StoryiesToDeactivate: []
+--- !u!65 &4599152637247223951
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9074237523010451857}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 2, z: 2}
+  m_Center: {x: 0, y: 1, z: 0}
